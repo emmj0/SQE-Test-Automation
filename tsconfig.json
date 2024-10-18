@@ -7,10 +7,15 @@
     "lib": ["es2018", "DOM"],
     "esModuleInterop": true,
     "module": "commonjs",
-    "strictNullChecks": false,
+    "strict": true,
+    "skipLibCheck": true,
     "types": ["codeceptjs", "node"],
-    "declaration": true,
-    "skipLibCheck": true
+    "declaration": true
   },
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
