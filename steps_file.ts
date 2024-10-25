@@ -8,8 +8,3 @@ export = function() {
 
   });
 }
-{
-  print():void{
-    "Hello"
-  }
-}
